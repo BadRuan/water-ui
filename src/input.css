@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-100: #CCDCFF;
+    --color-primary-200: #7CA4FF;
+    --color-primary-300: #165DFF;
+    --color-primary-400: #0035AF;
+    --color-primary-500: #001649;
+    --color-background: #F5F7FA;
+    --font-sans: "Inter", "sans-serif";
+}
+
+.bg-hero-gradient {
+    background: linear-gradient(to bottom, rgba(230, 240, 255, 100%), rgba(245, 247, 250, 100%));
+}
